@@ -1,0 +1,337 @@
+body, html {
+width: 100%;
+height: 100%
+}
+.slider {
+height: 100%;
+overflow: hidden;
+position: relative
+}
+.slider .slider-wrapper {
+position: absolute;
+width: 90000px;
+height: 100%
+}
+.slider section {
+float: left;
+max-width: 100%;
+height: 100%
+}
+.slider section img {
+min-width: 100%;
+height: 100%
+}
+.slider .control {
+position: absolute;
+display: block;
+width: 100px;
+height: 100%;
+background-color: rgba(0,0,0,0.3)
+}
+.slider .control.right {
+right: 0
+}
+.hover-img-effect section {
+width: 1200px;
+height: 400px;
+margin: 120px auto 0
+}
+.hover-img-effect section .img-full {
+float: left;
+width: 600px;
+height: 400px;
+position: relative
+}
+.hover-img-effect section .img-full:hover .loupe-glass, .hover-img-effect section .img-full:focus .loupe-glass {
+display: block
+}
+.hover-img-effect section .img-full .loupe-glass {
+width: 50px;
+height: 50px;
+background-color: rgba(0,0,0,0.4);
+position: absolute;
+display: none;
+z-index: 9999;
+left: 0;
+top: 0
+}
+.hover-img-effect section .img-full img {
+width: 600px;
+height: 400px
+}
+.hover-img-effect section .loupe {
+float: left;
+width: 600px;
+height: 400px;
+overflow: hidden;
+position: relative
+}
+.hover-img-effect section .loupe img {
+width: 600px;
+height: 400px;
+-webkit-transform: scale(2.4);
+-ms-transform: scale(2.4);
+transform: scale(2.4);
+position: absolute
+}
+.elegant-aero {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #FFFFFF;
+    padding: 20px 0px 10px 0px;
+
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.elegant-aero  h1{
+    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    background: #bf1e2e;
+    margin-top: -30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: 1px solid #B9E1F1;
+}
+.elegant-aero h1>span {
+    display: block;
+    font-size: 11px;
+}
+
+.elegant-aero label>span {
+    float: left;
+    margin-top: 10px;
+    color: #bf1e2e;
+}
+.elegant-aero label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.elegant-aero label>span {
+    float: left;
+    width: 80px;
+    text-align: left;
+    padding-right: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+/*.elegant-aero input[type="text"],input[type="password"], .elegant-aero input[type="email"], .elegant-aero textarea, .elegant-aero select {
+    color: #000;
+    width: 55%;
+    padding: 3px 0px 2px 10px;
+    margin-top: 2px;
+    border-radius:20px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    border: 1px solid #f3601d;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2);
+    font: 200 16px/20px Arial, Helvetica, sans-serif;
+}*/
+.elegant-aero textarea{
+    height:100px;
+}
+.elegant-aero select {
+    background: #fbfbfb url('down-arrow.png') no-repeat right;
+    background: #fbfbfb url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 67%;
+}
+.elegant-aero .button{
+    padding: 10px 30px 10px 30px;
+    background: #bf1e2e;
+    border-radius:20px;
+    color: #FFF;
+}
+.elegant-aero .button:hover{
+    background: #f07339;
+}
+.width-height-inherit{
+    width: 100%;
+    height: 100%;
+}
+.Profile{
+
+
+}
+.no-padding{
+    padding: 0px;
+}
+#profile-menu{
+    padding: 0px;
+    padding-right: 5px;
+}
+#profile-Image{
+    height: 45px;
+    width: 50px;
+    border-radius: 5px;
+}
+.white {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a{
+    color:white;
+}
+.navbar-default{
+ border-color:transparent;
+}
+.margin-top{
+    margin-top: 50px;
+}
+.background-Red{
+    background: #bf1e2e;
+}
+.padding-top-20{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.bold{
+
+    font-weight: 900;
+}
+.no-padding-left-right{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.title-name-group-item{
+ color:  white;
+    font-weight: 900;
+    font-size: 20px;
+}
+.title-count{
+    color:  white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.anti-row{
+    margin-left:0px;
+    margin-right: 0px  ;
+
+
+}
+.font-red{
+    color:  #bf1e2e;
+}
+.margin-bottom-10{
+    margin-bottom: 15px;
+}
+.text-edge-blur{
+    text-shadow: -2px 1px 2px #A00010, 0 0 2px #EB1E1E, 5px 4px 10px #bf1e2e;
+}
+.groupItem{
+    padding-top: 20px;
+
+}
+/*.groupItem:hover{
+    background-color: #bf1e2e ;
+    transition:background-color ease 1s;
+}*/
+.padding-left-right{
+    padding-right: 5px ;
+    padding-left: 5px;
+}
+.thumbnail{
+
+}
+.group-item-image{
+    height: 200px;
+    width: inherit;
+}
+#ex1Slider .slider-selection {
+    background: #BABABA;
+    display: inline-block;
+}
+.slider-range-output{min-height: 20px;
+    height: 100%;
+    margin-right: auto;
+    width: 35%;
+    min-width: 20px;
+    margin-left: auto;
+    font-size: 120%;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: -10px;
+
+}
+#slider-range-miles{
+    margin-top: 10px;
+}
+.thumbnail .viewicons a{
+    width:auto;
+}
+.caret{
+  border-top-color: white;
+    border-bottom-color: white;
+}
+ul.features-home5 li{
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-collapse{
+    border-color:transparent ;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+@media all and (max-width: 850px){
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus{
+        color: white;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: black;
+    }
+
+}
+.navbar-collapse{
+    padding-bottom: 10px;
+}
+.box-shadow{
+    box-shadow: 1px 1px 2px grey;
+}
+.text-shadow{
+    text-shadow: 1px 1px #FFFFFF , -1px -1px rgb(116, 116, 116);
+    color: #C4C4C4;
+}
+
+@media all and (max-width: 600px) {
+
+    #slider-range-miles {
+        margin-top: 30px;
+    }
+}
+@media all and (max-width: 950px) and (min-width:850px) {
+body{
+    overflow-x: hidden;
+}
+    .greycontainer>.container,.greycontainer>.container>.container{
+        padding-left: 0px;
+        margin-left: -10px;
+
+    }
+}
+.relativediv>img{
+    width: 100%;
+    height: 200px;
+}
+/*.relativediv>img:hover{
+    opacity: 1;
+}*/
+.heading-custom{
+    font-size: 22px;
+    color: #5e626b;
+    text-transform: uppercase;
+    font-family: 'Open Sans', arial, sans-serif;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 0px 0 5px 0;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+.text-center{text-align: center}
+#footer{padding-top:20px }
