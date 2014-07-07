@@ -335,3 +335,11 @@ body{
 }
 .text-center{text-align: center}
 #footer{padding-top:20px }
+.event-row{
+    display:inline-block;}
+.border-button-style{
+    background: #bf1e2e;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 16px;
+    border: 4px double #ffffff;}
