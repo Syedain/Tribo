@@ -263,6 +263,7 @@ position: absolute
 }
 #slider-range-miles{
     margin-top: 10px;
+    display: inline-block;
 }
 .thumbnail .viewicons a{
     width:auto;
@@ -343,3 +344,43 @@ body{
     color: #fff;
     font-size: 16px;
     border: 4px double #ffffff;}
+
+@media all and (max-width: 770px) {
+.select-search{
+    width:100%;
+}}
+.slider-horizontal,#slider-range-miles{
+overflow: visible;
+}
+#tooltip{
+    display: none;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+
+    background-color: transparent;
+}
+.navbar-nav>li>.dropdown-menu{
+    margin-top: 10px;
+}
+.icon-size-30{
+    font-size: 30px;
+}
+.icon-size-25{
+    font-size: 25px;
+}
+
+.badge {
+display: inline-block;
+    padding: 0px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: top;
+    background-color: #45A5DB;
+    border-radius: 10px;
+}
